@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz1-2.html</title>
+</head>
+<body>
+    <script>
+        function max(...items) {
+        let output = items[0];
+    }
+    
+    for(const item of items) {
+        if (output < item) {
+            output = item;
+        }
+            
+    }
+        return output;
+
+        console.log(`최대값: ${max(1,2,3,4)}`);
+    </script>
+</body>
+</html>
